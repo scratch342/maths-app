@@ -1,0 +1,10 @@
+1. Create Signin component - NEARLY DONE 
+	- Still have to do onSubmitSignIn()
+2. Create Register component
+3. Create Home component
+4. Create Rank component
+5. Add Navigation Component
+6. Do routing
+
+
+GO TO BACKEND
