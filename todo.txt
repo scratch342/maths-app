@@ -1,9 +1,9 @@
 1. Create Signin component - NEARLY DONE 
 	- Still have to do onSubmitSignIn()
-2. Create Register component NEARLY DONE
+2. Create Register component - NEARLY DONE
     - Still have to do onSubmitRegister()
-3. Create Home component
-4. Create Rank component
+3. Create Home component - NEARLY DONE
+4. Create Rank component - NEARLY DONE (PART OF HOME COMPONENT)
 5. Add Navigation Component
 6. Do routing
 

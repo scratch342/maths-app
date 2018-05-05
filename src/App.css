@@ -1,0 +1,76 @@
+
+/* Signin and Register page CSS */
+span.sign-in {
+  margin-top: 150px;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="name"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+div.sign-in{
+  padding: 20px;
+  border: 2px solid red;
+}
+
+
+/* Home CSS */
+h1.maths-question {
+  font-size: 70px;
+}
+
+.qa{
+  padding-top: 100px;
+}
+
+h3.score {
+  padding-top: 120px;
+}
+
+input#maths-answer{
+  display: flex;
+  margin-left: 585px;
+  width: 100px;
+}
+
+
+/* Navigaton CSS */
+.navigation{
+  display: flex;
+  justify-content: flex-end;
+}
