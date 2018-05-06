@@ -11,10 +11,23 @@ class Signin extends Component{
 		}
 	}
 
-	onSubmitSignIn = () => { //For submitting sign in credentials
-		this.props.onRouteChange('home');
-		console.log(this.props.onRouteChange);
-		console.log(this.state.signinName);
+	onSubmitSignIn = () => {
+		console.log(this.state.signInPassword);
+		fetch('http://localhost:3000/signin', {
+			method: 'post',
+			headers: {'Content-Type': 'application/json'},
+			body: JSON.stringify({
+				name: this.state.signinName,
+				password: this.state.signinPassword
+			})
+		})
+		.then(response => response.json())
+		.then(user => {
+			if(user.id){
+				this.props.loadUser(user);
+				this.props.onRouteChange('home');
+			}
+		})
 	}
 
 	onNameChange = (event) => {

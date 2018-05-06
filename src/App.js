@@ -35,10 +35,11 @@ class App extends Component {
       name: data.name,
       questionsAnswered: data.questionsAnswered
     }})
+    console.log(this.state.user);
   }
 
   render() {
-    const { route, isSignedIn } = this.state;
+    const { route, isSignedIn } = this.state; //Remember this.state not this.props in this case!
     return (
       <div className="App">
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />

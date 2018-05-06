@@ -4,8 +4,14 @@
     - Still have to do onSubmitRegister()
 3. Create Home component - NEARLY DONE
 4. Create Rank component - NEARLY DONE (PART OF HOME COMPONENT)
-5. Add Navigation Component
-6. Do routing
+5. Add Navigation Component - DONE
+6. Do routing - DONE
 
 
 GO TO BACKEND
+1. CONNECT TO FRONT END
+2. ADD database
+3. ADD user table
+4. ADD login table
+5. CONNECT to database with knex and pg
+6. CHANGE /signin, /register, /questionAnswered
